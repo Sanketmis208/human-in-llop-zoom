@@ -1,0 +1,38 @@
+{
+  "name": "zoom-workplace-agent-backend",
+  "version": "1.0.0",
+  "description": "Express backend for the Zoom Workplace Agent sample app — webhooks, OAuth, RTMS, AI services.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zoom",
+    "chatbot",
+    "team-chat",
+    "nodejs",
+    "express",
+    "webhook"
+  ],
+  "author": "Sanket Mistry",
+  "license": "MIT",
+  "dependencies": {
+    "@zoom/rtms": "^1.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "openai": "^6.42.0",
+    "ws": "^8.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
