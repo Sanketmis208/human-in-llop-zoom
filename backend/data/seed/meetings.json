@@ -1,0 +1,82 @@
+[
+  {
+    "id": "instance-001",
+    "seriesId": "series-001",
+    "title": "Q2 Launch Planning — Week 1",
+    "date": "2026-05-20T10:00:00Z",
+    "participants": ["Alice Chen", "Bob Martinez", "Carol Kim"],
+    "zoomMeetingUuid": null,
+    "summary": "Team aligned on Q2 product launch timeline. Alice will own external comms; Bob is reviewing pricing with finance; Carol completed the roadmap slide. Open question on demo environment readiness pushed to next week.",
+    "decisions": [
+      "Launch date confirmed for second week of June",
+      "Pricing review must be finalized before legal handoff",
+      "All-hands invite to go out by end of week"
+    ],
+    "highlights": [
+      "Carol shipped the updated roadmap slide ahead of schedule",
+      "Marketing is unblocked on naming once legal signs off on press release"
+    ],
+    "risks": [
+      "Demo environment stability not yet validated for launch event"
+    ]
+  },
+  {
+    "id": "instance-002",
+    "seriesId": "series-001",
+    "title": "Q2 Launch Planning — Week 2",
+    "date": "2026-05-27T10:00:00Z",
+    "participants": ["Alice Chen", "Bob Martinez", "Carol Kim"],
+    "zoomMeetingUuid": null,
+    "summary": "Demo environment validation in progress. Press release draft with legal. All-hands invite still pending — Alice to send today. Discussed contingency plan for launch day issues.",
+    "decisions": [
+      "Carol owns press release follow-up with legal",
+      "Bob will run a dry-run of the demo on Friday"
+    ],
+    "highlights": [
+      "Engineering confirmed demo environment fix shipped to staging"
+    ],
+    "risks": [
+      "Press release legal review behind schedule by 2 days"
+    ]
+  },
+  {
+    "id": "instance-003",
+    "seriesId": "series-002",
+    "title": "Eng Standup — May 28",
+    "date": "2026-05-28T09:00:00Z",
+    "participants": ["Dave Okafor", "Eve Torres", "Frank Liu"],
+    "zoomMeetingUuid": null,
+    "summary": "Dave is unblocking the auth bug in staging. Eve picked up payment module test coverage. Frank merged v2 API docs. PR backlog growing — Dave taking review pass today.",
+    "decisions": [
+      "Auth bug fix targeted for end of day",
+      "Eve owns payment module test sprint",
+      "PR review SLA tightened to 4 hours"
+    ],
+    "highlights": [
+      "Frank shipped v2 API documentation update"
+    ],
+    "risks": [
+      "Auth bug may slip beyond today if root cause is in shared session middleware"
+    ]
+  },
+  {
+    "id": "instance-004",
+    "seriesId": "series-002",
+    "title": "Eng Standup — May 29",
+    "date": "2026-05-29T09:00:00Z",
+    "participants": ["Dave Okafor", "Eve Torres", "Frank Liu"],
+    "zoomMeetingUuid": null,
+    "summary": "Auth bug resolved and hotfix queued for production. Sprint retro notes pending from Eve. Frank wrapping up feature/user-settings merge. CI pipeline update on deck for Eve.",
+    "decisions": [
+      "Hotfix deploys before noon",
+      "Sprint retro notes go out by EOD",
+      "CI pipeline updates land this week"
+    ],
+    "highlights": [
+      "Auth bug resolution turned around in 24 hours"
+    ],
+    "risks": [
+      "CI updates may require coordination with platform team — flag if not assigned by EOD"
+    ]
+  }
+]

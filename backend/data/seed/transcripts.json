@@ -1,0 +1,18 @@
+{
+  "instance-002": [
+    { "ts": "2026-05-27T10:01:00Z", "speaker": "Alice Chen", "text": "Quick check — where are we on the press release? Legal flagged it last week and I haven't seen a follow-up." },
+    { "ts": "2026-05-27T10:01:30Z", "speaker": "Carol Kim", "text": "I'll grab it today. I'll send the draft back to legal by tomorrow morning at the latest." },
+    { "ts": "2026-05-27T10:02:10Z", "speaker": "Bob Martinez", "text": "Demo environment update — staging is stable as of this morning. I'll do a full dry run on Friday and report back." },
+    { "ts": "2026-05-27T10:03:00Z", "speaker": "Alice Chen", "text": "Great. I still owe the all-hands invite. I'll send that out by end of day today, promise." },
+    { "ts": "2026-05-27T10:03:45Z", "speaker": "Carol Kim", "text": "Also, Dave on engineering wants to know if we need a hotfix slot reserved during launch week — I told him I'd circle back." },
+    { "ts": "2026-05-27T10:04:20Z", "speaker": "Bob Martinez", "text": "Yes, reserve it. We should not be shipping anything non-critical during launch week." },
+    { "ts": "2026-05-27T10:05:00Z", "speaker": "Alice Chen", "text": "Okay — action items: Carol gets the press release back to legal. I send the all-hands invite. Bob does the demo dry run Friday. Carol also coordinates the hotfix slot with engineering." }
+  ],
+  "instance-004": [
+    { "ts": "2026-05-29T09:00:30Z", "speaker": "Dave Okafor", "text": "Auth bug is fixed. Hotfix is built and waiting on approval to deploy. Targeting before noon." },
+    { "ts": "2026-05-29T09:01:15Z", "speaker": "Eve Torres", "text": "Nice work. I'll send the sprint retro notes out by end of day — still pulling the action items together." },
+    { "ts": "2026-05-29T09:02:00Z", "speaker": "Frank Liu", "text": "I'm in the middle of merging feature/user-settings into main. Should be done after lunch." },
+    { "ts": "2026-05-29T09:02:40Z", "speaker": "Eve Torres", "text": "I'll also pick up the CI pipeline update this week — integration tests on every push to main." },
+    { "ts": "2026-05-29T09:03:30Z", "speaker": "Dave Okafor", "text": "Heads up — the platform team might need to be in the loop on the CI changes. Flag it if you get stuck." }
+  ]
+}

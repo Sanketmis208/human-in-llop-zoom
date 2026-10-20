@@ -1,0 +1,53 @@
+[
+  {
+    "id": "evt-001",
+    "type": "meeting.ended",
+    "meetingId": "instance-001",
+    "actor": "system",
+    "payload": { "title": "Q2 Launch Planning — Week 1" },
+    "timestamp": "2026-05-20T11:00:00Z"
+  },
+  {
+    "id": "evt-002",
+    "type": "summary.generated",
+    "meetingId": "instance-001",
+    "actor": "ai",
+    "payload": { "model": "gpt-4.1-mini" },
+    "timestamp": "2026-05-20T11:00:15Z"
+  },
+  {
+    "id": "evt-003",
+    "type": "task.completed",
+    "meetingId": "instance-001",
+    "taskId": "task-003",
+    "actor": "user:carol",
+    "payload": { "title": "Update roadmap slide for board presentation" },
+    "timestamp": "2026-05-24T14:30:00Z"
+  },
+  {
+    "id": "evt-004",
+    "type": "meeting.ended",
+    "meetingId": "instance-002",
+    "actor": "system",
+    "payload": { "title": "Q2 Launch Planning — Week 2" },
+    "timestamp": "2026-05-27T11:00:00Z"
+  },
+  {
+    "id": "evt-005",
+    "type": "suggestion.created",
+    "meetingId": "instance-002",
+    "suggestionId": "sug-001",
+    "actor": "ai",
+    "payload": { "title": "Send press release draft back to legal", "confidence": 0.94 },
+    "timestamp": "2026-05-27T10:10:00Z"
+  },
+  {
+    "id": "evt-006",
+    "type": "suggestion.created",
+    "meetingId": "instance-002",
+    "suggestionId": "sug-002",
+    "actor": "ai",
+    "payload": { "title": "Send all-hands launch week invite", "confidence": 0.91 },
+    "timestamp": "2026-05-27T10:10:05Z"
+  }
+]
