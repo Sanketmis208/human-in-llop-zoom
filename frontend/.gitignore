@@ -1,0 +1,21 @@
+# dependencies
+/node_modules
+
+# next.js build output
+/.next/
+/out/
+
+# production
+/build
+
+# typescript incremental
+*.tsbuildinfo
+next-env.d.ts
+
+# env (Next.js loads ../env via next.config.mjs; keep frontend/ free of duplicates)
+.env*
+
+# debug / misc
+.DS_Store
+npm-debug.log*
+*.log
